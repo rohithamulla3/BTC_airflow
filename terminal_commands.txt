@@ -1,0 +1,8 @@
+# Terminal Commands & Notes
+
+- Created Airflow environment with Docker Compose
+- Installed pymysql inside Docker
+- Created Airflow DAG and verified in UI
+- DAG runs every 10 min and fetches BTC price using Coindesk API
+- API key: Not required for Coindesk (public API)
+- Verified data inserts into MySQL via Airflow PythonOperator task
